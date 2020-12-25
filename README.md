@@ -81,15 +81,13 @@
 - IntelliJ IDEA
 - Notepad++
 - 下载工具：IDM
-
 - 截图：snipaste
-
 - 剪切板工具：Ditto
-
 - 录屏工具：LICEcap
 - Chrome
 - MobaXterm/SecureCRT
 - Postman
+- 快速启动：WOX
 
 ## 插件
 
