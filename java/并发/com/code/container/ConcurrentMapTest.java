@@ -12,8 +12,6 @@ public class ConcurrentMapTest {
 
     public  static void main(String[] args) {
         baseOperation();
-        
-
     }
 
 
