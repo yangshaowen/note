@@ -2,9 +2,9 @@
 
 # 学习计划
 
-## 时间安排
 
-[sed](./linux/命令.md#sed)
+
+
 
 ## 学习要求
 
@@ -116,6 +116,13 @@
 
 - 打开Git-Bash
 
+- 用户信息设置
+
+  - ```js
+    git config --global user.name "Your Name"
+    git config --global user.email "email@example.com"
+    ```
+
 - 输入命令
 
   - ```shell
@@ -128,6 +135,15 @@
 - 查看是否包含`id_rsa`和`id_rsa.pub`(或者是`id_dsa`和`id_dsa.pub`之类成对的文件)，有`.pub`后缀的文件就是公钥，另一个文件则是密钥。
 
 - 在公钥配置到远端的仓库中,公钥是 `.pub` 将公钥的内容复制到仓库的`Key`中
+
+- 仓库
+
+  - ```sh
+    # 仓库初始化
+    git init
+    # 设置远程仓库
+    git remote add pb https://github.com/paulboone/ticgit
+    ```
 
 
 
@@ -144,7 +160,7 @@
   - 安装 Node.js 与 gitee-uploader 1.1.2
   - 下载插件 gitee 1.1.2
   - 配置查询参数
-    - ![image-20201223234638305](https://gitee.com/y1165166678/image/raw/master/img/image-20201223234638305.png)
+    - ![image-20201223234638305](https://gitee.com/y1165166678/image/raw/master/img/image-20201223234638305.png "123")
     - 私人令牌
       - ![image-20201223234841824](https://gitee.com/y1165166678/image/raw/master/img/image-20201223234841824.png)
 
